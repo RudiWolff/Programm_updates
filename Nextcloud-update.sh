@@ -5,7 +5,8 @@
 #
 # Programm, dass das Update von Nextcloud übernimmt:
 #
-# Vorhandene Dateien im Ordner /opt/Nextcloud:
+# Vorhandene Dateien im Ordner /opt/Nextcloud (in von mir geschriebenem Original; 
+# jetzt /home/rwolff/AppImages/Nextcloud/):
 # 1) Nextcloud.AppImage
 # 2) Nextcloud.AppImage.bak
 # 3) Nextcloud-3.13.2-x86_64.AppImage (Bsp.)
@@ -15,7 +16,8 @@
 #
 
 # Deklaration der Variablen:
-path="/opt/Nextcloud"
+# path="/opt/Nextcloud"
+path="/home/rwolff/AppImages/Nextcloud/"
 
 # Prüfung, ob das Skript als root ausgeführt wird.
 if [ $EUID -ne 0 ];then
